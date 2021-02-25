@@ -8,7 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GPACALCULATOR">
+        android:theme="@style/Theme.GPACALCULATOR"
+        android:colorPrimaryDark="@color/white"
+        android:statusBarColor="@color/white">
         <activity android:name=".sem8_sgpa" />
         <activity android:name=".sem7_cse_sgpa" />
         <activity android:name=".sem7_ece_sgpa" />
