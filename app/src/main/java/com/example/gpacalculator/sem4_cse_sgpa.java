@@ -79,7 +79,7 @@ public class sem4_cse_sgpa extends AppCompatActivity implements
                 int val3=formatValue(spin4.getSelectedItem().toString())*3;
                 int val4=formatValue(spin5.getSelectedItem().toString())*3;
                 int val5=formatValue(spin6.getSelectedItem().toString())*3;
-                int val6=formatValue(spin7.getSelectedItem().toString())*2;
+                int val6=formatValue(spin7.getSelectedItem().toString())*3;
                 int val7=formatValue(spin8.getSelectedItem().toString())*2;
                 int val8=formatValue(spin9.getSelectedItem().toString())*2;
                 int val9=formatValue(spin10.getSelectedItem().toString())*1;

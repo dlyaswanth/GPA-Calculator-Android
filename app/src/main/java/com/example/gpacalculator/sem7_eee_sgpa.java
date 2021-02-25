@@ -41,7 +41,6 @@ public class sem7_eee_sgpa extends AppCompatActivity implements
         Spinner spin7 = (Spinner) findViewById(R.id.spinner7);
         Spinner spin8 = (Spinner) findViewById(R.id.spinner8);
         Spinner spin9 = (Spinner) findViewById(R.id.spinner9);
-        Spinner spin10 = (Spinner) findViewById(R.id.spinner10);
         Button btn = (Button) findViewById(R.id.button);
         TextView result = (TextView) findViewById(R.id.textView);
         ArrayAdapter aa = new ArrayAdapter(this, android.R.layout.simple_spinner_item, values);
@@ -68,22 +67,18 @@ public class sem7_eee_sgpa extends AppCompatActivity implements
         ArrayAdapter aa7 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, values);
         aa7.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin9.setAdapter(aa7);
-        ArrayAdapter aa8 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, values);
-        aa8.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spin10.setAdapter(aa8);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int val1=formatValue(spin2.getSelectedItem().toString())*4;
+                int val1=formatValue(spin2.getSelectedItem().toString())*3;
                 int val2=formatValue(spin3.getSelectedItem().toString())*3;
                 int val3=formatValue(spin4.getSelectedItem().toString())*3;
-                int val4=formatValue(spin5.getSelectedItem().toString())*4;
+                int val4=formatValue(spin5.getSelectedItem().toString())*3;
                 int val5=formatValue(spin6.getSelectedItem().toString())*3;
-                int val6=formatValue(spin7.getSelectedItem().toString())*2;
+                int val6=formatValue(spin7.getSelectedItem().toString())*3;
                 int val7=formatValue(spin8.getSelectedItem().toString())*2;
                 int val8=formatValue(spin9.getSelectedItem().toString())*2;
-                int val9=formatValue(spin10.getSelectedItem().toString())*1;
-                double val=(val1+val2+val3+val4+val5+val6+val7+val8+val9)/24.00;
+                double val=(val1+val2+val3+val4+val5+val6+val7+val8)/23.00;
                 result.setText("Your SGPA is "+Double.toString(val));
             }
         });
