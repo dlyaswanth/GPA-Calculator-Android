@@ -22,6 +22,10 @@ public class sem2_cgpa extends AppCompatActivity {
         show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (s1.getText().toString().equals(""))
+                    s1.setText("0");
+                if (s2.getText().toString().equals(""))
+                    s2.setText("0");
                 if (str.equals("CSE")) {
                     float se1 = Float.parseFloat(s1.getText().toString()) * 25;
                     float se2 = Float.parseFloat(s2.getText().toString()) * 25;

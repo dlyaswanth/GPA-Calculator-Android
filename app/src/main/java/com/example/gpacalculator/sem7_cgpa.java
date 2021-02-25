@@ -27,6 +27,20 @@ public class sem7_cgpa extends AppCompatActivity {
         show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (s1.getText().toString().equals(""))
+                    s1.setText("0");
+                if (s2.getText().toString().equals(""))
+                    s2.setText("0");
+                if (s3.getText().toString().equals(""))
+                    s3.setText("0");
+                if (s4.getText().toString().equals(""))
+                    s4.setText("0");
+                if (s5.getText().toString().equals(""))
+                    s5.setText("0");
+                if (s6.getText().toString().equals(""))
+                    s6.setText("0");
+                if (s7.getText().toString().equals(""))
+                    s7.setText("0");
                 if (str.equals("CSE")) {
                     float se1 = Float.parseFloat(s1.getText().toString()) * 25;
                     float se2 = Float.parseFloat(s2.getText().toString()) * 25;

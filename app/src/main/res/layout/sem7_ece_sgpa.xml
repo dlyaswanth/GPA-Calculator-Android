@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sem7_ece_sgpa">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:text="Semester 7"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="10dp"
+                android:text="Antennas and Microwave Engineering"
+                
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="10dp"
+                android:text="Optical Communication"
+                
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="10dp"
+                android:text="Embedded and Real Tme Systems"
+                
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ad hoc and Wireless Sensor Networks"
+                
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="10dp"
+                android:text="Professional Elective-III"
+                
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:text="Open Elective-II"
+                
+                android:textSize="30dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:text="Embedded Lab"
+                android:layout_marginLeft="10dp"
+                
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@android:drawable/btn_dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:text="Advanced Communication Lab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="377dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_dropdown" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="165dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:text="Show SGPA" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:textSize="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

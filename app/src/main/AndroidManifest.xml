@@ -9,7 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GPACALCULATOR">
-        <activity android:name=".sem1_sgpa"></activity>
+        <activity android:name=".sem8_sgpa" />
+        <activity android:name=".sem7_cse_sgpa" />
+        <activity android:name=".sem7_ece_sgpa" />
+        <activity android:name=".sem7_eee_sgpa" />
+        <activity android:name=".sem7_mech_sgpa" />
+        <activity android:name=".sem6_mech_sgpa" />
+        <activity android:name=".sem6_eee_sgpa" />
+        <activity android:name=".sem6_ece_sgpa" />
+        <activity android:name=".sem6_cse_sgpa" />
+        <activity android:name=".sem5_cse_sgpa" />
+        <activity android:name=".sem5_ece_sgpa" />
+        <activity android:name=".sem5_eee_sgpa" />
+        <activity android:name=".sem5_mech_sgpa" />
+        <activity android:name=".sem4_mech_sgpa" />
+        <activity android:name=".sem4_eee_sgpa" />
+        <activity android:name=".sem4_ece_sgpa" />
+        <activity android:name=".sem4_cse_sgpa" />
+        <activity android:name=".sem3_mech_sgpa" />
+        <activity android:name=".sem3_eee_sgpa" />
+        <activity android:name=".sem3_ece_sgpa" />
+        <activity android:name=".sem3_cse_sgpa" />
+        <activity android:name=".sem2_mech_sgpa" />
+        <activity android:name=".sem2_eee_sgpa" />
+        <activity android:name=".sem2_ece_sgpa" />
+        <activity android:name=".sem2_cse_sgpa" />
+        <activity android:name=".sem1_sgpa" />
         <activity android:name=".start_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +50,7 @@
         <activity android:name=".sem7_cgpa" />
         <activity android:name=".sem8_cgpa" />
         <activity android:name=".cgpa" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".sgpa" />
     </application>
 

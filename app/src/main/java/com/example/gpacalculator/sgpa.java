@@ -42,6 +42,149 @@ public class sgpa extends AppCompatActivity implements
                     Intent intent =new Intent(getApplicationContext(), sem1_sgpa.class);
                     startActivity(intent);
                 }
+                else if(spin2.getSelectedItem().toString().equals("2"))
+                {
+                    if(value.equals("CSE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem2_cse_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("ECE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem2_ece_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("EEE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem2_eee_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem2_mech_sgpa.class);
+                        startActivity(intent);
+                    }
+                }
+                else if(spin2.getSelectedItem().toString().equals("3"))
+                {
+                    if(value.equals("CSE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem3_cse_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("ECE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem3_ece_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("EEE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem3_eee_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem3_mech_sgpa.class);
+                        startActivity(intent);
+                    }
+                }
+                else if(spin2.getSelectedItem().toString().equals("4"))
+                {
+                    if(value.equals("CSE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem4_cse_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("ECE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem4_ece_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("EEE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem4_eee_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem4_mech_sgpa.class);
+                        startActivity(intent);
+                    }
+                }
+                else if(spin2.getSelectedItem().toString().equals("5"))
+                {
+                    if(value.equals("CSE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem5_cse_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("ECE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem5_ece_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("EEE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem5_eee_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem5_mech_sgpa.class);
+                        startActivity(intent);
+                    }
+                }
+                else if(spin2.getSelectedItem().toString().equals("6"))
+                {
+                    if(value.equals("CSE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem6_cse_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("ECE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem6_ece_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("EEE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem6_eee_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem6_mech_sgpa.class);
+                        startActivity(intent);
+                    }
+                }
+                else if(spin2.getSelectedItem().toString().equals("7"))
+                {
+                    if(value.equals("CSE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem7_cse_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("ECE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem7_ece_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else if(value.equals("EEE"))
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem7_eee_sgpa.class);
+                        startActivity(intent);
+                    }
+                    else
+                    {
+                        Intent intent =new Intent(getApplicationContext(), sem7_mech_sgpa.class);
+                        startActivity(intent);
+                    }
+                }
+                else
+                {
+                        Intent intent =new Intent(getApplicationContext(), sem8_sgpa.class);
+                        startActivity(intent);
+                }
                //Toast.makeText(getApplicationContext(),spin2.getSelectedItem().toString(),100);
             }
         });
