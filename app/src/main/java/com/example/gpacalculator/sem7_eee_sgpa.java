@@ -78,7 +78,7 @@ public class sem7_eee_sgpa extends AppCompatActivity implements
                 int val6=formatValue(spin7.getSelectedItem().toString())*3;
                 int val7=formatValue(spin8.getSelectedItem().toString())*2;
                 int val8=formatValue(spin9.getSelectedItem().toString())*2;
-                double val=(val1+val2+val3+val4+val5+val6+val7+val8)/23.00;
+                double val=(val1+val2+val3+val4+val5+val6+val7+val8)/22.00;
                 result.setText("Your SGPA is "+Double.toString(val));
             }
         });
